@@ -1,0 +1,34 @@
+spring:
+	port:8201
+	 
+spring:
+  profiles: dev
+	application: 
+		name: springconfig-client
+
+
+#
+eureka:
+  # 客户端注册Eureka服务端列表内
+  client:
+    service-url:
+      # 设置eureka集群地址
+      defaultZone: http://eureka-dev.com:7001/eureka/
+
+---
+spring:
+	port:8202
+	 
+spring:
+  profiles: test
+	application: 
+		name: springconfig-client
+
+
+#
+eureka:
+  # 客户端注册Eureka服务端列表内
+  client:
+    service-url:
+      # 设置eureka集群地址
+      defaultZone: http://eureka-test.com:7001/eureka/
