@@ -1,0 +1,18 @@
+spring:
+  Profiles:
+	active:
+ 	- dev
+
+-——
+spring:
+  Profiles: dev
+	application: 
+ 	  name: spring cloud-config-shengwu-dev
+
+
+-——
+spring:
+  Profiles: test
+	application: 
+ 	  name: spring cloud-config-shengwu-test
+
