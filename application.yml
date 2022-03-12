@@ -1,5 +1,4 @@
 spring:
-  Profiles: dev
-	application: 
+ 	application:
  	  name: spring cloud-config-shengwu-dev
 
