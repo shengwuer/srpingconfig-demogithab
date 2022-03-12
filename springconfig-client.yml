@@ -1,7 +1,6 @@
 spring:
 	port:8201
 	 
-spring:
   profiles: dev
 	application: 
 		name: springconfig-client
@@ -19,7 +18,6 @@ eureka:
 spring:
 	port:8202
 	 
-spring:
   profiles: test
 	application: 
 		name: springconfig-client
